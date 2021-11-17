@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0 0;
+    background-color: #FAFAFB;;
+}
+
+header {
+    background-color: rgb(122,33,206);
+    background: linear-gradient(0deg, rgba(122,33,206,1) 20%, rgba(76,21,129,1) 100%);
+    padding: 0 5%;
+}
+
+h1 {
+    color: #FAFAFB;
+    margin: 0;
+    padding: 5%;
+    text-align: center;
+    font-weight:100;
+    font-family: 'Praise', cursive;
+    font-size: 90px;
+    text-shadow: 2px -2px 1px #504f50;
+    text-shadow: -2px 2px 3px #504f50;
+}
+
+quote .quoting {
+    background-color: #8C26ED;
+    padding: 1% 5%;
+    margin: -2% 5% 0 45%;
+    width: 40%;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: Gisha;
+    color: #FAFAFB;
+    font-style: italic;
+    border-left: 2px solid #FAFAFB; 
+    border-right: 2px solid #FAFAFB;
+}
+
+.quoting::before, .quoting::after {
+    content: '"';
+    font-family: 'Montagu Slab', serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+img {
+    height: 80px;
+    float: left;
+    margin-right: 20px;
+}
+
+p {
+    color: #504f50;
+    margin: 0;
+    padding: 2% 15% 1% 15%;
+    font-family: Gisha;
+}
+
+
+main {
+    background-color: #FAFAFB;    
+}
+
+footer {
+    background-color: #8C26ED;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 2% 5%;
+}
+
+li {
+    display: inline-block;
+    padding: 0 2%;
+}
+
+li:hover {
+    transform: translate(0px, 5%);
+}
+
+a {
+    color:#FAFAFB;
+    text-decoration: none;
+
+    font-family: Gisha;
+}
+
+a:hover {
+    color: #FAFAFB;
+    text-shadow: 2px -2px 1px #504f50;
+    text-shadow: -2px 2px 3px #504f50;
+}
